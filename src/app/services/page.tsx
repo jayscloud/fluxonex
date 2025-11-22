@@ -1,47 +1,60 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { CheckCircle2, Cloud, Code, Database, Layout, Shield, Smartphone } from 'lucide-react';
+import { CheckCircle2, Cloud, Code, Database, Layout, Shield, Smartphone, BrainCircuit } from 'lucide-react';
 import Image from 'next/image';
 
 const services = [
     {
-        id: 'salesforce',
-        title: 'Salesforce Consulting',
+        id: 'salesforce', // Keeping ID for image mapping
+        title: 'Enterprise Solutions',
         icon: Cloud,
-        description: 'Unlock the full potential of the world\'s #1 CRM. We help you streamline operations, automate processes, and drive sales growth.',
+        description: 'Streamline operations with robust CRM, ERP, and business process automation tailored to your scale.',
         features: [
-            'Sales & Service Cloud Implementation',
-            'Custom Lightning Component Development',
-            'Data Migration & Integration',
-            'Salesforce CPQ & Billing',
-            'Ongoing Support & Administration'
+            'CRM Strategy & Implementation (Salesforce, HubSpot)',
+            'ERP Integration & Optimization',
+            'Business Process Automation',
+            'Legacy System Modernization',
+            'Enterprise Data Architecture'
         ]
     },
     {
         id: 'cloud',
-        title: 'AWS & Azure Cloud Management',
+        title: 'Cloud & Infrastructure',
         icon: Database,
-        description: 'Secure, scalable, and cost-effective cloud solutions. We manage your infrastructure so you can focus on your business.',
+        description: 'Secure, scalable architectures across any provider (AWS, Azure, GCP) to power your digital ecosystem.',
         features: [
-            'Cloud Migration Strategy',
-            'Infrastructure as Code (Terraform/CloudFormation)',
-            'CI/CD Pipeline Setup',
-            'Security & Compliance Audits',
-            '24/7 Monitoring & Incident Response'
+            'Multi-Cloud Strategy & Migration',
+            'Infrastructure as Code (Terraform)',
+            'DevOps & CI/CD Automation',
+            'Security & Compliance (SOC2, HIPAA)',
+            '24/7 Site Reliability Engineering'
         ]
     },
     {
         id: 'fullstack',
-        title: 'Fullstack Development',
+        title: 'Custom Engineering',
         icon: Code,
-        description: 'End-to-end software development using modern technologies. We build robust, high-performance applications.',
+        description: 'Bespoke software development for web, mobile, and emerging tech using the right tools for the job.',
         features: [
-            'Java Springboot Microservices',
-            'Node.js & Express Backends',
-            'React.js & Next.js Frontends',
-            'TypeScript for Type-Safe Code',
-            'API Design & Integration'
+            'High-Performance Web Applications',
+            'Native & Cross-Platform Mobile Apps',
+            'Microservices Architecture',
+            'API Design & Integration',
+            'Real-time Systems'
+        ]
+    },
+    {
+        id: 'ai',
+        title: 'AI & Data Intelligence',
+        icon: BrainCircuit,
+        description: 'Unlock the power of Generative AI, LLMs, and predictive analytics to automate workflows and drive smarter decisions.',
+        features: [
+            'LLM Integration (OpenAI, Anthropic, Llama)',
+            'RAG (Retrieval-Augmented Generation) Systems',
+            'Predictive Analytics & Data Modeling',
+            'Intelligent Process Automation',
+            'AI Agents & Chatbots'
         ]
     }
 ];
@@ -125,7 +138,7 @@ export default function ServicesPage() {
                     <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-8">Powered by Modern Technologies</p>
                     <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
                         {/* Simple text representations for logos to keep it clean and fast */}
-                        {['Salesforce', 'AWS', 'Azure', 'Java', 'Spring Boot', 'Node.js', 'React', 'TypeScript', 'Docker', 'Kubernetes'].map((tech) => (
+                        {['Salesforce', 'AWS', 'Azure', 'Python', 'OpenAI', 'TensorFlow', 'React', 'Node.js', 'Docker', 'Kubernetes'].map((tech) => (
                             <span key={tech} className="text-xl font-bold text-foreground/80">{tech}</span>
                         ))}
                     </div>
