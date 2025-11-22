@@ -48,7 +48,7 @@ export const siteConfig = {
         buttonText: "Get a Free Consultation"
     },
     contact: {
-        email: "contact@fluxnex.com",
+        email: "contact@fluxonex.com",
         phone: "+1 (555) 123-4567",
         address: "123 Tech Park, Innovation City"
     }

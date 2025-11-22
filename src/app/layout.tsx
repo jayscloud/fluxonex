@@ -7,8 +7,8 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fluxnex | Cloud & Fullstack Consulting",
-  description: "Expert Salesforce, AWS/Azure, and Fullstack Development services.",
+  title: "FluxoNex - Enterprise Technology Consulting",
+  description: "FluxoNex is a premier consulting firm for Salesforce, Cloud, and Custom Engineering.",
 };
 
 export default function RootLayout({

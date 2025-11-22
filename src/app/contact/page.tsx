@@ -42,7 +42,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                                    <p className="text-muted-foreground">contact@fluxnex.com</p>
+                                    <p className="text-muted-foreground">contact@fluxonex.com</p>
                                     <p className="text-sm text-muted-foreground mt-1">We'll respond within 24 hours.</p>
                                 </div>
                             </div>

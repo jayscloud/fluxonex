@@ -41,7 +41,7 @@ export default function CareersPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-6"
                     >
-                        Join the Fluxnex Team
+                        Join the FluxoNex Team
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0 }}
@@ -107,10 +107,10 @@ export default function CareersPage() {
                         We are always interested in meeting great people. Send us your resume and we'll keep you in mind for future openings.
                     </p>
                     <Link
-                        href="mailto:careers@fluxnex.com"
+                        href="mailto:careers@fluxonex.com"
                         className="text-primary font-semibold hover:underline"
                     >
-                        Email us at careers@fluxnex.com
+                        Email us at careers@fluxonex.com
                     </Link>
                 </div>
             </div>
