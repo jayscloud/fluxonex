@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "title": "The Future of AI in Enterprise",
+        "slug": "future-of-ai-enterprise",
+        "content": "# The Future of AI in Enterprise\n\n![AI Future](/images/ai.png)\n\nArtificial Intelligence is no longer just a buzzword; it's a fundamental driver of business transformation. From predictive analytics to generative AI agents, companies are leveraging these tools to automate complex workflows and gain unprecedented insights.\n\n## Key Trends\n1. **Generative AI:** Automating content creation and customer support.\n2. **Predictive Analytics:** Forecasting market trends with high accuracy.\n3. **Autonomous Agents:** Systems that can plan and execute tasks independently.\n\n## Example Code\nHere is how you might initialize an AI agent:\n\n```javascript\nconst agent = new Agent({\n  model: 'gpt-4',\n  temperature: 0.7\n});\nawait agent.run();\n```\n\nAt FluxoNex, we help you navigate this landscape.",
+        "published": true,
+        "createdAt": "2023-10-25T10:00:00Z",
+        "comments": [
+            {
+                "id": "c1",
+                "content": "Great insights! AI is definitely changing the game.",
+                "author": "Sarah J.",
+                "createdAt": "2023-10-26T14:30:00Z"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Optimizing Cloud Costs with Serverless",
+        "slug": "optimizing-cloud-costs-serverless",
+        "content": "# Optimizing Cloud Costs\n\nMoving to the cloud is the first step. Optimizing your spend is the continuous journey. Serverless architectures offer a pay-per-use model that can significantly reduce idle resource costs.\n\n## Why Serverless?\n- **No Idle Costs:** You only pay when your code runs.\n- **Auto-scaling:** Handles traffic spikes automatically.\n- **Reduced Ops:** No servers to patch or manage.",
+        "published": true,
+        "createdAt": "2023-11-10T09:15:00Z",
+        "comments": []
+    },
+    {
+        "id": "3",
+        "title": "Why TypeScript is Essential for Scalable Apps",
+        "slug": "why-typescript-essential",
+        "content": "# Why TypeScript?\n\nJavaScript is flexible, but that flexibility can lead to runtime errors in large codebases. TypeScript adds static typing, which catches errors at compile time, making your code more robust and easier to refactor.\n\n## Benefits\n- **Type Safety:** Catch bugs early.\n- **Better IDE Support:** Autocomplete and navigation.\n- **Self-documenting:** The types explain the data structures.",
+        "published": true,
+        "createdAt": "2023-11-15T16:45:00Z",
+        "comments": []
+    }
+]

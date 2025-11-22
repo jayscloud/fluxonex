@@ -6,6 +6,7 @@ export const siteConfig = {
     navItems: [
         { name: 'Home', href: '/' },
         { name: 'Services', href: '/services' },
+        { name: 'Blog', href: '/blog' },
         { name: 'Careers', href: '/careers' },
         { name: 'Contact', href: '/contact' },
     ],
