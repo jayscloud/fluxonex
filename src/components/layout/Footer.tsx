@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 export function Footer() {
     return (
@@ -27,10 +28,13 @@ export function Footer() {
                     <div>
                         <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase mb-4">Services</h3>
                         <ul className="space-y-3">
-                            <li><Link href="/services#salesforce" className="text-sm text-muted-foreground hover:text-primary">Salesforce</Link></li>
-                            <li><Link href="/services#cloud" className="text-sm text-muted-foreground hover:text-primary">AWS & Azure</Link></li>
-                            <li><Link href="/services#devops" className="text-sm text-muted-foreground hover:text-primary">DevOps</Link></li>
-                            <li><Link href="/services#fullstack" className="text-sm text-muted-foreground hover:text-primary">Fullstack Dev</Link></li>
+                            {siteConfig.services.map((service) => (
+                                <li key={service.title}>
+                                    <Link href="/services" className="text-sm text-muted-foreground hover:text-primary">
+                                        {service.title}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
 
